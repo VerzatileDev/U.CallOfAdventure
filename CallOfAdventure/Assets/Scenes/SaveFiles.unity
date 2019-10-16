@@ -2050,7 +2050,7 @@ MonoBehaviour:
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 15
+  m_DynamicPixelsPerUnit: 10
 --- !u!223 &1316128140
 Canvas:
   m_ObjectHideFlags: 0
