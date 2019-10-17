@@ -332,7 +332,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 574093100}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 601271407}
+        m_MethodName: closegame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &574093100
@@ -454,6 +465,7 @@ GameObject:
   - component: {fileID: 601271403}
   - component: {fileID: 601271402}
   - component: {fileID: 601271401}
+  - component: {fileID: 601271407}
   - component: {fileID: 601271406}
   m_Layer: 0
   m_Name: Main Camera
@@ -543,6 +555,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bafc45412be8863488490b1ed827ab32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &601271407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 601271400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f924456d14f427c43bbe79c5534eba4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &667504546
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,7 +642,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 667504549}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 601271406}
+        m_MethodName: changemenuscene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Tutorial
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &667504549
@@ -810,7 +844,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 752638196}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 601271406}
+        m_MethodName: changemenuscene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Options
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &752638196
