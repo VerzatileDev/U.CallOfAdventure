@@ -247,6 +247,11 @@ Prefab:
       propertyPath: followTarget
       value: 
       objectReference: {fileID: 711982787}
+    - target: {fileID: 20760267796813934, guid: 4526b4a65a4620748a8b2c6e1ba3e189,
+        type: 2}
+      propertyPath: orthographic size
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4526b4a65a4620748a8b2c6e1ba3e189, type: 2}
   m_IsPrefabParent: 0
@@ -289,6 +294,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1269146802171024, guid: 8845f2681539d614d9ebe58bdba76dd3, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 50996782321120066, guid: 8845f2681539d614d9ebe58bdba76dd3,
+        type: 2}
+      propertyPath: m_Mass
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8845f2681539d614d9ebe58bdba76dd3, type: 2}
   m_IsPrefabParent: 0
@@ -309,9 +323,11 @@ GameObject:
   - component: {fileID: 939786053}
   - component: {fileID: 939786057}
   - component: {fileID: 939786054}
+  - component: {fileID: 939786059}
+  - component: {fileID: 939786058}
   m_Layer: 0
   m_Name: Cube - Shitty
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -359,12 +375,12 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 2.5
+  m_Mass: 1
   m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -382,7 +398,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 939786052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.254, y: -0.28287524, z: -1}
+  m_LocalPosition: {x: -1.75, y: 3.33, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -413,3 +429,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &939786058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 939786052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ab9299cfaf18f4f8054c00b39bd8b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Vision: 3
+--- !u!114 &939786059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 939786052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61739fda2bbb8674995be4b8e9477a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Trigger: 1.5
