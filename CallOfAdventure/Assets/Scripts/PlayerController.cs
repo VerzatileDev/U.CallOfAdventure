@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     // Private and Public variables
     public float movementSpeed;
 
-    private new Animator animation;
+    //private new Animator animation;
 
     private Rigidbody2D myRigidbody;
 
@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        animation = GetComponent<Animator>();
+        //animation = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
     }
 
@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
 
             myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, 0f);
         }
-        animation.SetFloat("Move_X", Input.GetAxisRaw("Horizontal"));
-        animation.SetFloat("Move_Y", Input.GetAxisRaw("Horizontal"));
+        //animation.SetFloat("Move_X", Input.GetAxisRaw("Horizontal"));
+        //animation.SetFloat("Move_Y", Input.GetAxisRaw("Horizontal"));
     }
 }
