@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Cameracontroller : MonoBehaviour {
-
+	// Camera controller Not assigned error>
 
     public float moveSpeed;
     public GameObject followTarget;
