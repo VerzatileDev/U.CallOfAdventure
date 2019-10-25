@@ -12170,7 +12170,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4816123866465280, guid: 1cba5541529d60f4fb775fde66943ffa, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.20000076
+      value: -0.111
       objectReference: {fileID: 0}
     - target: {fileID: 4816123866465280, guid: 1cba5541529d60f4fb775fde66943ffa, type: 2}
       propertyPath: m_LocalPosition.y
@@ -12203,6 +12203,10 @@ Prefab:
     - target: {fileID: 1195087969237646, guid: 1cba5541529d60f4fb775fde66943ffa, type: 2}
       propertyPath: m_Name
       value: Wall (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4816123866465280, guid: 1cba5541529d60f4fb775fde66943ffa, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.1779308
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1cba5541529d60f4fb775fde66943ffa, type: 2}
@@ -35534,6 +35538,11 @@ Prefab:
     - target: {fileID: 1269146802171024, guid: 8845f2681539d614d9ebe58bdba76dd3, type: 2}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 114603926878318638, guid: 8845f2681539d614d9ebe58bdba76dd3,
+        type: 2}
+      propertyPath: movementSpeed
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8845f2681539d614d9ebe58bdba76dd3, type: 2}
@@ -65267,7 +65276,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1417311380}
-  - component: {fileID: 1417311385}
   - component: {fileID: 1417311384}
   - component: {fileID: 1417311386}
   - component: {fileID: 1417311383}
@@ -65288,7 +65296,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1417311379}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07, y: -0.15, z: -10}
+  m_LocalPosition: {x: -0.069999695, y: -0.1500001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1937136390}
@@ -65355,20 +65363,6 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
---- !u!114 &1417311385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114838698231725158, guid: 4526b4a65a4620748a8b2c6e1ba3e189,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1417311379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c945918de5050f47aed068f6d503d56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 0.1
-  followTarget: {fileID: 0}
 --- !u!114 &1417311386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83209,7 +83203,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4816123866465280, guid: 1cba5541529d60f4fb775fde66943ffa, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.20000076
+      value: -0.1064
       objectReference: {fileID: 0}
     - target: {fileID: 4816123866465280, guid: 1cba5541529d60f4fb775fde66943ffa, type: 2}
       propertyPath: m_LocalPosition.y
@@ -83242,6 +83236,10 @@ Prefab:
     - target: {fileID: 1195087969237646, guid: 1cba5541529d60f4fb775fde66943ffa, type: 2}
       propertyPath: m_Name
       value: Wall (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4816123866465280, guid: 1cba5541529d60f4fb775fde66943ffa, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.187295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1cba5541529d60f4fb775fde66943ffa, type: 2}
@@ -89302,18 +89300,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1269146802171024, guid: 8845f2681539d614d9ebe58bdba76dd3,
     type: 2}
   m_PrefabInternal: {fileID: 779203658}
---- !u!114 &1937136385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1937136384}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3e5a91189bbbad4aa44f92412d4fc12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 0
 --- !u!4 &1937136390 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4620210641677612, guid: 8845f2681539d614d9ebe58bdba76dd3,
