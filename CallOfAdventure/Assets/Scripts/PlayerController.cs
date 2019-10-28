@@ -8,7 +8,10 @@ public class PlayerController : MonoBehaviour
     // Private and Public variables
     public float movementSpeed;
 
-    private Animator animation;
+    private new Animator animation;  // Accessig the animator.
+
+    private bool Player_Move;
+    private Vector3 Move_last;
 
     private Rigidbody2D myRigidbody;
 
@@ -26,19 +29,26 @@ public class PlayerController : MonoBehaviour
     {
 
 
+        Player_Move = false;  // Before Running the rest of the script check if player is
+        // Moving  if false that means false. Then Continues on if buttons are pressed.
+
+
+
+
         // Movement of the player
         if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
         {
             myRigidbody.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * movementSpeed, myRigidbody.velocity.y);
-
+            Player_Move = true;
+            Move_last = new Vector3(Input.GetAxisRaw("Horizontal"), 0f);
 
         }
 
         if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
         {
             myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, Input.GetAxisRaw("Vertical") * movementSpeed);
-
-
+            Player_Move = true;
+            Move_last = new Vector3(0f, Input.GetAxisRaw("Vertical"));
         }
 
         if (Input.GetAxisRaw("Horizontal") < 0.5f && Input.GetAxisRaw("Horizontal") > -0.5f)
@@ -52,7 +62,12 @@ public class PlayerController : MonoBehaviour
             myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, 0f);
         }
       
-		animation.SetFloat ("X_velocity", Input.GetAxisRaw ("Horizontal"));
+		animation.SetFloat ("X_velocity", Input.GetAxisRaw ("Horizontal")); // Animation Set from player Input.
 		animation.SetFloat ("Y_velocity", Input.GetAxisRaw ("Vertical"));
+
+
+        animation.SetBool("Player_Move", Player_Move);
+        animation.SetFloat("XMove_last", Move_last.x);
+        animation.SetFloat("YMove_last", Move_last.y);
     }
 }
