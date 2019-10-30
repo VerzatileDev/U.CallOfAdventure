@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CombatEnter : MonoBehaviour
 {
@@ -31,6 +32,7 @@ public class CombatEnter : MonoBehaviour
 
         {
             Debug.Log("Scene is Changing");
+            SceneManager.LoadScene("FightScene");  
         }
 
     }

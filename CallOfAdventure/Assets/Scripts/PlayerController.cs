@@ -70,4 +70,12 @@ public class PlayerController : MonoBehaviour
         animation.SetFloat("XMove_last", Move_last.x);
         animation.SetFloat("YMove_last", Move_last.y);
     }
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Enemy")
+        {
+            Debug.Log("Within Range");
+
+        }
+    }
 }
