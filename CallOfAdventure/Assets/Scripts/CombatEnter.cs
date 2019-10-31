@@ -32,7 +32,7 @@ public class CombatEnter : MonoBehaviour
 
         {
             Debug.Log("Scene is Changing");
-            SceneManager.LoadScene("FightScene");  
+
         }
 
     }
