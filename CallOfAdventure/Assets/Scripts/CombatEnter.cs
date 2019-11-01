@@ -6,14 +6,13 @@ public class CombatEnter : MonoBehaviour
 {
 
     GameObject player;
-    Rigidbody2D rb;
     public float Trigger = 1f;
 
 
     // Use this for initialization
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        
         //find the player using tags & assign it to a variable
         player = GameObject.FindGameObjectWithTag("Player");
     }
