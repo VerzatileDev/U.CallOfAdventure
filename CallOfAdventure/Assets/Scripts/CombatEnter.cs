@@ -30,7 +30,7 @@ public class CombatEnter : MonoBehaviour
         if (distance <= Trigger)
 
         {
-            Debug.Log("Scene is Changing");
+            Application.LoadLevel("FighScene");
 
         }
 
