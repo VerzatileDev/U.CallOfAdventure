@@ -31,7 +31,7 @@ public class CombatEnter : MonoBehaviour
 
         {
             Debug.Log("Scene is Changing");
-
+            
         }
 
     }
