@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class CombatEnter : MonoBehaviour
 {
 
-    GameObject player;
+    public GameObject player;
     public float Trigger = 1f;
 
 
@@ -15,7 +15,7 @@ public class CombatEnter : MonoBehaviour
     {
         
         //find the player using tags & assign it to a variable
-        player = GameObject.FindGameObjectWithTag("Player");
+        
     }
 
     // Update is called once per frame
@@ -25,7 +25,7 @@ public class CombatEnter : MonoBehaviour
         //push the enemy towards the player
 
 
-
+		player = GameObject.FindGameObjectWithTag("Player");
         float distance = Vector3.Distance(player.transform.position, transform.position);
         if (distance <= Trigger)
 

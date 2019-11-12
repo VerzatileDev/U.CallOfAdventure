@@ -23,6 +23,7 @@ public class Cameracontroller : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+		followTarget = GameObject.FindGameObjectWithTag("Player");
         targetPosition = new Vector3(followTarget.transform.position.x, followTarget.transform.position.y, transform.position.z);
         transform.position = Vector3.Lerp(transform.position, targetPosition, moveSpeed - Time.deltaTime);
     }
