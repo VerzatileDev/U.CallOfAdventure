@@ -21,7 +21,7 @@ public class Cameracontroller : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
 		followTarget = GameObject.FindGameObjectWithTag("Player");
         targetPosition = new Vector3(followTarget.transform.position.x, followTarget.transform.position.y, transform.position.z);
