@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ApplyButton : MonoBehaviour {
+public class PlayerValues : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
