@@ -3637,7 +3637,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 148570416}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.357, y: -12.0259, z: 0}
+  m_LocalPosition: {x: -6.348, y: -12.0259, z: 0}
   m_LocalScale: {x: 1.2816944, y: 1.0518827, z: 1}
   m_Children: []
   m_Father: {fileID: 1062574820}
@@ -12337,7 +12337,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1785706501332236, guid: eb2be2329201b41499c083b3835ba6d8, type: 2}
       propertyPath: m_Name
-      value: Enemy (15)
+      value: Goblin
       objectReference: {fileID: 0}
     - target: {fileID: 61457949988414618, guid: eb2be2329201b41499c083b3835ba6d8,
         type: 2}
@@ -17355,8 +17355,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 642056482}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2924, y: -11.0069, z: 0}
-  m_LocalScale: {x: 1.2543176, y: 1.0138111, z: 1}
+  m_LocalPosition: {x: 5.266, y: -11.0069, z: 0}
+  m_LocalScale: {x: 1.3469692, y: 1.0138111, z: 1}
   m_Children: []
   m_Father: {fileID: 1062574820}
   m_RootOrder: 545
@@ -34977,7 +34977,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1278161415}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.0854, y: -11.033, z: 0}
+  m_LocalPosition: {x: 4.06, y: -11.033, z: 0}
   m_LocalScale: {x: 1.158925, y: 1.0660181, z: 1}
   m_Children: []
   m_Father: {fileID: 1062574820}
@@ -41372,7 +41372,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1516834510}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.621, y: -9.878, z: 0}
+  m_LocalPosition: {x: 8.58, y: -9.878, z: 0}
   m_LocalScale: {x: 1.3301146, y: 0.7922878, z: 1}
   m_Children: []
   m_Father: {fileID: 1062574820}
@@ -46049,7 +46049,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1785706501332236, guid: eb2be2329201b41499c083b3835ba6d8, type: 2}
       propertyPath: m_Name
-      value: Enemy (5)
+      value: Goblin
       objectReference: {fileID: 0}
     - target: {fileID: 61457949988414618, guid: eb2be2329201b41499c083b3835ba6d8,
         type: 2}
@@ -47681,7 +47681,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1785706501332236, guid: eb2be2329201b41499c083b3835ba6d8, type: 2}
       propertyPath: m_Name
-      value: Enemy (16)
+      value: Goblin
       objectReference: {fileID: 0}
     - target: {fileID: 61457949988414618, guid: eb2be2329201b41499c083b3835ba6d8,
         type: 2}
@@ -49292,7 +49292,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1827207123}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.6474, y: -12.01, z: 0}
+  m_LocalPosition: {x: -7.638, y: -12.01, z: 0}
   m_LocalScale: {x: 1.2964334, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1062574820}
@@ -52510,8 +52510,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940843580}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.7139, y: -13.013, z: 0}
-  m_LocalScale: {x: 1.1936042, y: 1, z: 1}
+  m_LocalPosition: {x: 7.821, y: -13.013, z: 0}
+  m_LocalScale: {x: 1.4080858, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1062574820}
   m_RootOrder: 639
@@ -57767,7 +57767,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2134198107}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.32, y: -9.893, z: 0}
+  m_LocalPosition: {x: 7.28, y: -9.893, z: 0}
   m_LocalScale: {x: 1.2953656, y: 0.8262558, z: 1}
   m_Children: []
   m_Father: {fileID: 1062574820}
