@@ -8,10 +8,14 @@ public class PlayerController : MonoBehaviour
     // Private and Public variables
     public float movementSpeed;
 
-    private new Animator animation;  // Accessig the animator.
 
-    private bool Player_Move;
-    private Vector3 Move_last;
+
+    private new Animator animation;  // Player  animator.
+
+    private bool Player_Move;  // Bool thats job is to check if the player is moving..
+    private Vector3 Move_last;  // Last movement Of Player
+
+
 
     private Rigidbody2D myRigidbody;
 
@@ -39,16 +43,18 @@ public class PlayerController : MonoBehaviour
         if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
         {
             myRigidbody.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * movementSpeed, myRigidbody.velocity.y);
-            Player_Move = true;
-            Move_last = new Vector3(Input.GetAxisRaw("Horizontal"), 0f);
+
+            Player_Move = true; // Checks Movement in horizontal axis
+            Move_last = new Vector3(Input.GetAxisRaw("Horizontal"), 0f);  // Gets last movement from horizontal axis
 
         }
 
         if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
         {
             myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, Input.GetAxisRaw("Vertical") * movementSpeed);
-            Player_Move = true;
-            Move_last = new Vector3(0f, Input.GetAxisRaw("Vertical"));
+
+            Player_Move = true;  // Checks Movement in vertical axis
+            Move_last = new Vector3(0f, Input.GetAxisRaw("Vertical"));  // Gets last movement from vertical axis
         }
 
         if (Input.GetAxisRaw("Horizontal") < 0.5f && Input.GetAxisRaw("Horizontal") > -0.5f)
@@ -62,14 +68,21 @@ public class PlayerController : MonoBehaviour
             myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, 0f);
         }
       
+
+
+
 		animation.SetFloat ("X_velocity", Input.GetAxisRaw ("Horizontal")); // Animation Set from player Input.
 		animation.SetFloat ("Y_velocity", Input.GetAxisRaw ("Vertical"));
 
 
-        animation.SetBool("Player_Move", Player_Move);
+        animation.SetBool("Player_Move", Player_Move);  
         animation.SetFloat("XMove_last", Move_last.x);
         animation.SetFloat("YMove_last", Move_last.y);
+
     }
+
+
+
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "Enemy")
