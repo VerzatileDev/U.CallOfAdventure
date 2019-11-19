@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
-
+//This ties the mixer to the slider
 public class SettingMenu : MonoBehaviour {
 
     public AudioMixer audioMixer;

@@ -5,24 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class CombatEnter : MonoBehaviour
 {
-
+    // This script causes the scene to change when player collides with the enemy
     public GameObject player;
     public float Trigger = 1f;
 
-
-    // Use this for initialization
-    void Start()
-    {
-        
-        //find the player using tags & assign it to a variable
-        
-    }
-
-    // Update is called once per frame
     void FixedUpdate()
     {
 
-        //push the enemy towards the player
+        // If the two object touch this will call "Scene is Changing"
 
 
 		player = GameObject.FindGameObjectWithTag("Player");
@@ -31,7 +21,7 @@ public class CombatEnter : MonoBehaviour
 
         {
             Debug.Log("Scene is Changing");
-            
+            //WIP!!!!!!
         }
 
     }

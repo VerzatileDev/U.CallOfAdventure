@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player_spawn : MonoBehaviour
 {
+
+    //This script saves which character you chose for later instantiation
     public void ChoosePlayer(int character)
     {
         int choice = character;

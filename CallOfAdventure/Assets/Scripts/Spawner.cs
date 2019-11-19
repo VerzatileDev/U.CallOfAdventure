@@ -8,7 +8,7 @@ public class Spawner : MonoBehaviour
     public GameObject PlayerChar2;
     public GameObject PlayerChar3;
     private int choice;
-    // Use this for initialization
+    //This script instantiates a characer depending on a previous choice through player prefs
     void Start()
     {
         if (PlayerPrefs.HasKey("Character") == true)

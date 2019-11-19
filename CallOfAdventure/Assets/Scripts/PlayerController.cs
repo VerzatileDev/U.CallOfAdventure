@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
 
     private new Animator animation;  // Player  animator.
 
-    private bool Player_Move;  // Bool thats job is to check if the player is moving..
+    private bool Player_Move;  // Bool which's job is to check if the player is moving..
     private Vector3 Move_last;  // Last movement Of Player
 
 
@@ -21,14 +21,12 @@ public class PlayerController : MonoBehaviour
 
 
 
-    // Use this for initialization
     void Start()
     {
 		animation = GetComponent<Animator>();
 		myRigidbody = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
 
@@ -48,7 +46,7 @@ public class PlayerController : MonoBehaviour
             Move_last = new Vector3(Input.GetAxisRaw("Horizontal"), 0f);  // Gets last movement from horizontal axis
 
         }
-
+        //Uses inherent unity axis to move the character
         if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
         {
             myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, Input.GetAxisRaw("Vertical") * movementSpeed);
