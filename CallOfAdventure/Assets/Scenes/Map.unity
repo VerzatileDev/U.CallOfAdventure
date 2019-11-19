@@ -45620,6 +45620,16 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 369403773}
+    - target: {fileID: 224477906816648164, guid: aa358e3d86102bb4598c8049707491bc,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224402691211543986, guid: aa358e3d86102bb4598c8049707491bc,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aa358e3d86102bb4598c8049707491bc, type: 2}
   m_IsPrefabParent: 0
