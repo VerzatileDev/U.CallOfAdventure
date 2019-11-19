@@ -2967,12 +2967,17 @@ Prefab:
     - target: {fileID: 61457949988414618, guid: eb2be2329201b41499c083b3835ba6d8,
         type: 2}
       propertyPath: m_Size.y
-      value: 1.3
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 61457949988414618, guid: eb2be2329201b41499c083b3835ba6d8,
         type: 2}
       propertyPath: m_Size.x
-      value: 1
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 61457949988414618, guid: eb2be2329201b41499c083b3835ba6d8,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: -0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 33313751447890562, guid: eb2be2329201b41499c083b3835ba6d8, type: 2}
@@ -45620,6 +45625,21 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 369403773}
+    - target: {fileID: 114991282745239178, guid: aa358e3d86102bb4598c8049707491bc,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224477906816648164, guid: aa358e3d86102bb4598c8049707491bc,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224402691211543986, guid: aa358e3d86102bb4598c8049707491bc,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aa358e3d86102bb4598c8049707491bc, type: 2}
   m_IsPrefabParent: 0
@@ -49743,12 +49763,17 @@ Prefab:
     - target: {fileID: 61457949988414618, guid: eb2be2329201b41499c083b3835ba6d8,
         type: 2}
       propertyPath: m_Size.x
-      value: 1
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: 61457949988414618, guid: eb2be2329201b41499c083b3835ba6d8,
         type: 2}
       propertyPath: m_Size.y
-      value: 1.3
+      value: 1.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 61457949988414618, guid: eb2be2329201b41499c083b3835ba6d8,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 23261055624950318, guid: eb2be2329201b41499c083b3835ba6d8, type: 2}
