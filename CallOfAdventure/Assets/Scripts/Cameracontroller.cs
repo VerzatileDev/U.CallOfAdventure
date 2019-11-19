@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Cameracontroller : MonoBehaviour
 {
-    // Camera controller Not assigned error>
-
+    
+    //This script makes the camera follow the player
     public float moveSpeed;
     public GameObject followTarget;
 
@@ -14,13 +14,7 @@ public class Cameracontroller : MonoBehaviour
 
 
 
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
+    // The camera find the player tag and then tries to keep up with it. The moveSpeed allows it to be slightly slower giving it a feeling of movmenet even in identical area (long hallways)
     void Update()
     {
 		followTarget = GameObject.FindGameObjectWithTag("Player");

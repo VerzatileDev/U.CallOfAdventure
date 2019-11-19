@@ -1,31 +1,31 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class AIMovement : MonoBehaviour
 {
-    
+    //This code moves the enemies towards the player in game
     GameObject player;
     Rigidbody2D rb;
     public float Vision = 3f;
     
     
-    // Use this for initialization
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        //find the player using tags & assign it to a variable
+        
         
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
 
-        //push the enemy towards the player
+        
 
-
+        //Finds the player
 		player = GameObject.FindGameObjectWithTag("Player");
+        //Pushes the object towards the player so long as the player gets close
         float distance = Vector3.Distance(player.transform.position, transform.position);
         if (distance <= Vision)
 

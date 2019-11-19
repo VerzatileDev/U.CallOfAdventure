@@ -45625,11 +45625,14 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 369403773}
+<<<<<<< HEAD
     - target: {fileID: 114991282745239178, guid: aa358e3d86102bb4598c8049707491bc,
         type: 2}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> 792468f4b66bd6a98759f36455085e092874d652
     - target: {fileID: 224477906816648164, guid: aa358e3d86102bb4598c8049707491bc,
         type: 2}
       propertyPath: m_RootOrder
