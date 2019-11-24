@@ -8,20 +8,23 @@ public class CombatEnter : MonoBehaviour
     // This script causes the scene to change when player collides with the enemy
     public GameObject player;
     public float Trigger = 1f;
+    public int x;
 
     void FixedUpdate()
     {
 
         // If the two object touch this will call "Scene is Changing"
 
-
 		player = GameObject.FindGameObjectWithTag("Player");
         float distance = Vector3.Distance(player.transform.position, transform.position);
         if (distance <= Trigger)
-
+        
         {
+            PlayerPrefs.SetInt("Enemy", x);
+            PlayerPrefs.Save();
+
             Debug.Log("Scene is Changing");
-            //WIP!!!!!!
+            SceneManager.LoadScene("FighScene");
         }
 
     }
