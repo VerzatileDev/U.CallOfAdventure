@@ -16494,6 +16494,12 @@ Prefab:
       propertyPath: m_PixelPerfect
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114096647211408672, guid: 5104854c75f2bbd42921fe13a66f8b96,
+        type: 2}
+      propertyPath: audioMixer
+      value: 
+      objectReference: {fileID: 24100000, guid: 253f1a7babce48f4baea2547b6462e2a,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5104854c75f2bbd42921fe13a66f8b96, type: 2}
   m_IsPrefabParent: 0
@@ -56329,7 +56335,7 @@ AudioSource:
   m_GameObject: {fileID: 2035567707}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 29f3fed1940a2fd46b6053e055513d8f,
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 253f1a7babce48f4baea2547b6462e2a,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: fce41e3452c510d47b4d81b672fdceac, type: 3}
   m_PlayOnAwake: 1
