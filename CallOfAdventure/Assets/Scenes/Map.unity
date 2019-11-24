@@ -1634,7 +1634,7 @@ Prefab:
     - target: {fileID: 81938358815107710, guid: 4526b4a65a4620748a8b2c6e1ba3e189,
         type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4526b4a65a4620748a8b2c6e1ba3e189, type: 2}
@@ -56333,7 +56333,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: fce41e3452c510d47b4d81b672fdceac, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.16
   m_Pitch: 0.56
   Loop: 1
   Mute: 0
