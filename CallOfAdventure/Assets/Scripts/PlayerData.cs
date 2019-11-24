@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class PlayerData {
+public class PlayerData
+{
 
     public float[] position;
 
 
-	public PlayerData (GameObject player)
+    public PlayerData(GameObject player)
     {
         position = new float[3];
         position[0] = player.transform.position.x;
@@ -17,20 +18,5 @@ public class PlayerData {
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
