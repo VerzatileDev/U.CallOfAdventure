@@ -26,6 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FighScene.unity
     guid: 070ceb217375fc645876cb1f7fb3cd89
-  - enabled: 1
-    path: Assets/Scenes/InGameOptions.unity
+  - enabled: 0
+    path: 
     guid: d74f2859a15e215499983ed8566e91d6

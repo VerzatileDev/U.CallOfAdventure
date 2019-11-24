@@ -40,12 +40,6 @@ public class PauseMenu : MonoBehaviour
         GameisPaused = true;
     }
 
-    public void LoadInGameOptions()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene("InGameOptions");
-    }
-
     public void LoadMenu()
     {
         Time.timeScale = 1f;
