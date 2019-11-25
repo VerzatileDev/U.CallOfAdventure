@@ -10,16 +10,16 @@ public class AIMovement : MonoBehaviour
     Rigidbody2D rb;
     public float Vision = 3f;
 
-	private bool Enemy_moving = false ;
+	//private bool Enemy_moving = false ;
 
-	private new Animator animation; // animator for enemies 
+	//private new Animator animation; // animator for enemies 
     
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
 
-		animation = GetComponent<Animator>();
+		//animation = GetComponent<Animator>();
         
     }
 
@@ -37,7 +37,7 @@ public class AIMovement : MonoBehaviour
 			
 		
                 {
-				Enemy_moving = true;
+				//Enemy_moving = true;
 			//if directionofForce 
 				
 				Vector2 directionOfForce = player.transform.position - transform.position;

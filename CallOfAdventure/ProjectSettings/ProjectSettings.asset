@@ -587,9 +587,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 33932ea8-f76b-4921-995e-4c5697538b64
-  projectName: CallOfAdventure
-  organizationId: argentfine
+  cloudProjectId: d5beb9f4-0b58-41f6-b368-06427596fea6
+  projectName: CallOfAdventure (1)
+  organizationId: verzatile
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
