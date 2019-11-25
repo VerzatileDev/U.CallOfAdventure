@@ -12,7 +12,9 @@ public class LoadSecret : MonoBehaviour {
 
     // Update is called once per frame
     private void Update() {
+        // This is bad practise as it check it always when the game is running.
 
+        // Finds Player
         player = GameObject.FindWithTag("Player");
         // Looks for a tag of player if true and in that block it goes on.
             float distance = Vector2.Distance(player.transform.position, transform.position);
