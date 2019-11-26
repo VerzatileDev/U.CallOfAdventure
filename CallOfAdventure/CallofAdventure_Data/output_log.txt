@@ -1,0 +1,227 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 740 (ID=0xfc8)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   26.21.14.3648
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\fida2\Documents\Project\S12019_Group6\CallOfAdventure\CallofAdventure_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\fida2\Documents\Project\S12019_Group6\CallOfAdventure\CallofAdventure_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\fida2\Documents\Project\S12019_Group6\CallOfAdventure\CallofAdventure_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\fida2\Documents\Project\S12019_Group6\CallOfAdventure\CallofAdventure_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\fida2\Documents\Project\S12019_Group6\CallOfAdventure\CallofAdventure_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\fida2\Documents\Project\S12019_Group6\CallOfAdventure\CallofAdventure_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\fida2\Documents\Project\S12019_Group6\CallOfAdventure\CallofAdventure_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\fida2\Documents\Project\S12019_Group6\CallOfAdventure\CallofAdventure_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\fida2\Documents\Project\S12019_Group6\CallOfAdventure\CallofAdventure_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\fida2\Documents\Project\S12019_Group6\CallOfAdventure\CallofAdventure_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\fida2\Documents\Project\S12019_Group6\CallOfAdventure\CallofAdventure_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\fida2\Documents\Project\S12019_Group6\CallOfAdventure\CallofAdventure_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\fida2\Documents\Project\S12019_Group6\CallOfAdventure\CallofAdventure_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\fida2\Documents\Project\S12019_Group6\CallOfAdventure\CallofAdventure_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.023 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.127700 ms
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing!
+ 
+(Filename:  Line: 1758)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 14.951500 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 348.
+Total: 0.490700 ms (FindLiveObjects: 0.040800 ms CreateObjectMapping: 0.031200 ms MarkObjects: 0.353000 ms  DeleteObjects: 0.064700 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.720500 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 337.
+Total: 0.558600 ms (FindLiveObjects: 0.044000 ms CreateObjectMapping: 0.034900 ms MarkObjects: 0.372000 ms  DeleteObjects: 0.106200 ms)
+
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing!
+ 
+(Filename:  Line: 1758)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.404700 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 348.
+Total: 0.227700 ms (FindLiveObjects: 0.020800 ms CreateObjectMapping: 0.009500 ms MarkObjects: 0.165300 ms  DeleteObjects: 0.031600 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.340600 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 337.
+Total: 0.573600 ms (FindLiveObjects: 0.052200 ms CreateObjectMapping: 0.049400 ms MarkObjects: 0.367700 ms  DeleteObjects: 0.103100 ms)
+
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing!
+ 
+(Filename:  Line: 1758)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.889800 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 348.
+Total: 0.519800 ms (FindLiveObjects: 0.040300 ms CreateObjectMapping: 0.036400 ms MarkObjects: 0.369700 ms  DeleteObjects: 0.071700 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.413700 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 337.
+Total: 0.239200 ms (FindLiveObjects: 0.019500 ms CreateObjectMapping: 0.010300 ms MarkObjects: 0.167200 ms  DeleteObjects: 0.041400 ms)
+
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing!
+ 
+(Filename:  Line: 1758)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.368300 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 348.
+Total: 0.224300 ms (FindLiveObjects: 0.018500 ms CreateObjectMapping: 0.010200 ms MarkObjects: 0.164200 ms  DeleteObjects: 0.030600 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.305300 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 337.
+Total: 0.275800 ms (FindLiveObjects: 0.030800 ms CreateObjectMapping: 0.014300 ms MarkObjects: 0.177300 ms  DeleteObjects: 0.052400 ms)
+
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing!
+ 
+(Filename:  Line: 1758)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.354800 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 348.
+Total: 0.611900 ms (FindLiveObjects: 0.044300 ms CreateObjectMapping: 0.040400 ms MarkObjects: 0.455000 ms  DeleteObjects: 0.071100 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.731200 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 337.
+Total: 0.423900 ms (FindLiveObjects: 0.033000 ms CreateObjectMapping: 0.025100 ms MarkObjects: 0.285700 ms  DeleteObjects: 0.078800 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.343800 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 305.
+Total: 0.589000 ms (FindLiveObjects: 0.057200 ms CreateObjectMapping: 0.048900 ms MarkObjects: 0.386200 ms  DeleteObjects: 0.095100 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.173600 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 337.
+Total: 0.553600 ms (FindLiveObjects: 0.048500 ms CreateObjectMapping: 0.042300 ms MarkObjects: 0.433300 ms  DeleteObjects: 0.027900 ms)
+
+The referenced script on this Behaviour (Game Object 'Scene Camera') is missing!
+ 
+(Filename:  Line: 1758)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.378200 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 369.
+Total: 0.234900 ms (FindLiveObjects: 0.021800 ms CreateObjectMapping: 0.014700 ms MarkObjects: 0.184500 ms  DeleteObjects: 0.013000 ms)
+
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing!
+ 
+(Filename:  Line: 1758)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.323100 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3180.
+Total: 0.660500 ms (FindLiveObjects: 0.141000 ms CreateObjectMapping: 0.023900 ms MarkObjects: 0.431800 ms  DeleteObjects: 0.063100 ms)
+
+Player is found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Near
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.097700 ms
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 608.
+Total: 0.320900 ms (FindLiveObjects: 0.034000 ms CreateObjectMapping: 0.015600 ms MarkObjects: 0.191800 ms  DeleteObjects: 0.078800 ms)
+
+Player is found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Near
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing!
+ 
+(Filename:  Line: 1758)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.484400 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3180.
+Total: 1.325500 ms (FindLiveObjects: 0.245200 ms CreateObjectMapping: 0.069700 ms MarkObjects: 0.945700 ms  DeleteObjects: 0.063600 ms)
+
+Player is found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.892200 ms
+
+Unloading 144 unused Assets to reduce memory usage. Loaded Objects now: 337.
+Total: 1.073300 ms (FindLiveObjects: 0.060500 ms CreateObjectMapping: 0.041900 ms MarkObjects: 0.298500 ms  DeleteObjects: 0.671200 ms)
+
+The referenced script on this Behaviour (Game Object 'Scene Camera') is missing!
+ 
+(Filename:  Line: 1758)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.314400 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 369.
+Total: 0.213200 ms (FindLiveObjects: 0.022600 ms CreateObjectMapping: 0.010000 ms MarkObjects: 0.168600 ms  DeleteObjects: 0.011200 ms)
+
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing!
+ 
+(Filename:  Line: 1758)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.376200 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3180.
+Total: 0.847500 ms (FindLiveObjects: 0.169700 ms CreateObjectMapping: 0.036100 ms MarkObjects: 0.554200 ms  DeleteObjects: 0.086300 ms)
+
+Player is found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Scene is Changing
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.038400 ms
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 622.
+Total: 0.822900 ms (FindLiveObjects: 0.076900 ms CreateObjectMapping: 0.053200 ms MarkObjects: 0.357700 ms  DeleteObjects: 0.333500 ms)
+
+Enemy is found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player is found
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1bd8 -> priority: 1 
+  Thread -> id: d58 -> priority: 1 
